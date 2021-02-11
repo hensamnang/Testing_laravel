@@ -15,7 +15,7 @@ class TesttodosController extends Controller
     public function index()
     {
         $projects = Testtodos::all();
-
+        // dd($projects);
         return view('Pages.index', compact('projects'));
 
     }

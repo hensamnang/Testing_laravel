@@ -1,9 +1,9 @@
 @extends('layout.app')
-@include('Pages.add')
+{{-- @include('Pages.add') --}}
 @section('content')
     <div class="content">
         <h1 class="text-center">Laravel Testing</h1>
-        <a href="{{ route('testTodos.create') }}" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Add New</a>
+        <a href="{{ route('testTodos.create') }}" class="btn btn-primary" >Add New</a>
 
         <div class="table">
             <table class="table table-bordered">
